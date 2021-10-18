@@ -1,0 +1,37 @@
+.Todo {
+  display: flex;
+  justify-content: center;
+}
+
+.Todo-label {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.Todo-task {
+  margin: 6px;
+  background-color: #2f363d;
+  border-radius: 6px;
+  padding: 9px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  width: 250px;
+  color: white;
+  cursor: pointer;
+}
+
+.Todo-task:hover {
+  background-color: white;
+  color: #3498db;
+}
+
+.Todo-checkbox {
+  margin: 6px;
+  padding: 9px;
+  cursor: pointer;
+}
